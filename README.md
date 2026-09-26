@@ -2,17 +2,19 @@
 
 This is a C implementation of an xxd-style hex dumper that displays offsets, hexadecimal bytes, and printable ASCII.
 
+
 ## Build
 
-You can compile the Hexdumper.c file with the following commands:
+You can compile the hexdumper.c file with the following commands:
 
 ### Linux - gcc
 
-``` gcc -Wall -Wextra Hexdumper.c -o hexdumper ```
+``` gcc -Wall -Wextra hexdumper.c -o hexdumper ```
 
 ### MacOS/Windows - clang
 
-``` clang -Wall -Wextra Hexdumper.c -o hexdumper```
+```clang -Wall -Wextra hexdumper.c -o hexdumper```
+
 
 ## Usage
 
